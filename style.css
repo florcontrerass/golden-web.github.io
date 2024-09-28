@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+text-decoration: underline;
+  color:#8ca9fb;
+  text-align:center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+body{
+background-color:pink;
+}
+
+img{
+  border: 2px solid;
+  
+}
+
+nav{
+display:flex;
+  justify-content:space-around;
+  background-color:#8ca9fb;
+  border-radius: 10px;
+  padding:15px;
+  
+}
+
+.current{
+  color:#fdaf03;
+}
+
+.unused{
+  color:red;
+  
+}
+
+button:hover{
+  transform:scale(3);
+  z-index:102;
+  transition:0.5s;
+  color:pink;
+}
